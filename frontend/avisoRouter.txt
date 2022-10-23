@@ -1,0 +1,21 @@
+Feito essa instalação, fique atento que o professor vai importar nas aulas componentes do react-router. Só que você vai importar o os componentes do react-router-dom, dessa forma:
+
+    import { Routes, Route } from "react-router-dom";
+
+Então ao invés de implementarmos nossas rotas assim:
+
+<switch>
+</switch>
+
+Passamos a implementar assim:
+
+<routes>
+</routes>
+
+Perceba que a forma como referenciamos nossos componentes também está diferente, ao invés de passarmos o componente como children (filho) agora passamos como props.
+
+element={<this.props />}
+
+Logo depois no arquivo App.jsx, o professor faz a seguinte importação: import { HashRouter } from " react-router-dom ". Não é para você fazer essa importação, você terá que importar:
+
+    import { BrowserRouter } from 'react-router-dom'

@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "User02",
+      "email": "user02@ufc.virtual.br",
+      "password": "agdistis",
+      "admin": false,
+      "id": 2
+    },
+    {
+      "name": "User03",
+      "email": "user03@virtual.ufc.br",
+      "password": "hegemone",
+      "admin": false,
+      "id": 3
+    },
+    {
+      "name": "User04",
+      "email": "user04@virtual.ufc.br",
+      "password": "hephaistos",
+      "admin": false,
+      "id": 4
+    }
+  ]
+}

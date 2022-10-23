@@ -1,0 +1,17 @@
+span.footerText {
+      user-select: none;
+}
+
+span.author {
+      color: var(--bg-light);
+      font-weight: 600;
+}
+
+footer.footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 25px;
+      background-color: #FFF;
+      box-shadow: var(--shadow);
+}
